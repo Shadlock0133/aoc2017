@@ -1,0 +1,6 @@
+[package]
+name = "aoc2017"
+version = "0.1.0"
+authors = ["Shadlock0133 <tomek-kubel2@wp.pl>"]
+
+[dependencies]
