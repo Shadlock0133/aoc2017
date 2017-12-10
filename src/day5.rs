@@ -31,13 +31,16 @@ pub fn day5_2(input: &str) -> u32 {
 }
 
 #[cfg(test)]
-mod part1 {
+mod tests {
     use super::*;
-    #[test] fn example1() { assert_eq!(day5_1("0 3 0 1 -3"), 5); }
-}
 
-#[cfg(test)]
-mod part2 {
-    use super::*;
-    #[test] fn example1() { assert_eq!(day5_2("0 3 0 1 -3"), 10); }
+    #[test]
+    fn part1() {
+        assert_eq!(day5_1("0 3 0 1 -3"), 5);
+    }
+
+    #[test]
+    fn part2() {
+        assert_eq!(day5_2("0 3 0 1 -3"), 10);
+    }
 }
